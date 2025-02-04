@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		40B85D4E2D5258EA001721A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B85D412D5258EA001721A0 /* AppDelegate.swift */; };
+		40B85D4F2D5258EA001721A0 /* MilestoneChallenge3___ShoppingList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40B85D492D5258EA001721A0 /* MilestoneChallenge3___ShoppingList.xcdatamodeld */; };
+		40B85D502D5258EA001721A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B85D4A2D5258EA001721A0 /* SceneDelegate.swift */; };
+		40B85D512D5258EA001721A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B85D4B2D5258EA001721A0 /* ViewController.swift */; };
+		40B85D522D5258EA001721A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B85D422D5258EA001721A0 /* Assets.xcassets */; };
+		40B85D532D5258EA001721A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B85D442D5258EA001721A0 /* LaunchScreen.storyboard */; };
+		40B85D542D5258EA001721A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B85D462D5258EA001721A0 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		40B85D0A2D52549C001721A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,27 +37,17 @@
 		40B85CF02D525481001721A0 /* MilestoneChallenge3 - ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MilestoneChallenge3 - ShoppingList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B85D092D52549C001721A0 /* MilestoneChallenge3 - ShoppingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MilestoneChallenge3 - ShoppingListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B85D132D52549C001721A0 /* MilestoneChallenge3 - ShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MilestoneChallenge3 - ShoppingListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B85D412D5258EA001721A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40B85D422D5258EA001721A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40B85D432D5258EA001721A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40B85D452D5258EA001721A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40B85D482D5258EA001721A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B85D4A2D5258EA001721A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40B85D4B2D5258EA001721A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40B85D4D2D5258EA001721A0 /* MilestoneChallenge3___ShoppingList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MilestoneChallenge3___ShoppingList.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		40B85D1B2D52549D001721A0 /* Exceptions for "MilestoneChallenge3 - ShoppingList" folder in "MilestoneChallenge3 - ShoppingList" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 40B85CEF2D525481001721A0 /* MilestoneChallenge3 - ShoppingList */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		40B85CF22D525481001721A0 /* MilestoneChallenge3 - ShoppingList */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				40B85D1B2D52549D001721A0 /* Exceptions for "MilestoneChallenge3 - ShoppingList" folder in "MilestoneChallenge3 - ShoppingList" target */,
-			);
-			path = "MilestoneChallenge3 - ShoppingList";
-			sourceTree = "<group>";
-		};
 		40B85D0C2D52549C001721A0 /* MilestoneChallenge3 - ShoppingListTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "MilestoneChallenge3 - ShoppingListTests";
@@ -88,7 +88,7 @@
 		40B85CE72D525481001721A0 = {
 			isa = PBXGroup;
 			children = (
-				40B85CF22D525481001721A0 /* MilestoneChallenge3 - ShoppingList */,
+				40B85D4C2D5258EA001721A0 /* MilestoneChallenge3 - ShoppingList */,
 				40B85D0C2D52549C001721A0 /* MilestoneChallenge3 - ShoppingListTests */,
 				40B85D162D52549C001721A0 /* MilestoneChallenge3 - ShoppingListUITests */,
 				40B85CF12D525481001721A0 /* Products */,
@@ -105,6 +105,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		40B85D472D5258EA001721A0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				40B85D412D5258EA001721A0 /* AppDelegate.swift */,
+				40B85D4A2D5258EA001721A0 /* SceneDelegate.swift */,
+				40B85D422D5258EA001721A0 /* Assets.xcassets */,
+				40B85D442D5258EA001721A0 /* LaunchScreen.storyboard */,
+				40B85D462D5258EA001721A0 /* Main.storyboard */,
+				40B85D492D5258EA001721A0 /* MilestoneChallenge3___ShoppingList.xcdatamodeld */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		40B85D4C2D5258EA001721A0 /* MilestoneChallenge3 - ShoppingList */ = {
+			isa = PBXGroup;
+			children = (
+				40B85D562D525933001721A0 /* Screens */,
+				40B85D472D5258EA001721A0 /* Support */,
+				40B85D482D5258EA001721A0 /* Info.plist */,
+			);
+			path = "MilestoneChallenge3 - ShoppingList";
+			sourceTree = "<group>";
+		};
+		40B85D562D525933001721A0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				40B85D4B2D5258EA001721A0 /* ViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +150,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				40B85CF22D525481001721A0 /* MilestoneChallenge3 - ShoppingList */,
 			);
 			name = "MilestoneChallenge3 - ShoppingList";
 			packageProductDependencies = (
@@ -225,6 +253,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B85D522D5258EA001721A0 /* Assets.xcassets in Resources */,
+				40B85D532D5258EA001721A0 /* LaunchScreen.storyboard in Resources */,
+				40B85D542D5258EA001721A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B85D4E2D5258EA001721A0 /* AppDelegate.swift in Sources */,
+				40B85D4F2D5258EA001721A0 /* MilestoneChallenge3___ShoppingList.xcdatamodeld in Sources */,
+				40B85D502D5258EA001721A0 /* SceneDelegate.swift in Sources */,
+				40B85D512D5258EA001721A0 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +315,25 @@
 			targetProxy = 40B85D142D52549C001721A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40B85D442D5258EA001721A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B85D432D5258EA001721A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		40B85D462D5258EA001721A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B85D452D5258EA001721A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		40B85D1D2D52549D001721A0 /* Debug */ = {
@@ -569,6 +623,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40B85D492D5258EA001721A0 /* MilestoneChallenge3___ShoppingList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40B85D4D2D5258EA001721A0 /* MilestoneChallenge3___ShoppingList.xcdatamodel */,
+			);
+			currentVersion = 40B85D4D2D5258EA001721A0 /* MilestoneChallenge3___ShoppingList.xcdatamodel */;
+			path = "MilestoneChallenge3___ShoppingList.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 40B85CE82D525481001721A0 /* Project object */;
 }
