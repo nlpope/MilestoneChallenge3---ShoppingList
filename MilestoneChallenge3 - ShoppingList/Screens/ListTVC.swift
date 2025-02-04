@@ -32,10 +32,12 @@ class ListTVC: UITableViewController
     }
     
     
-    func submit(_ item: String)
+    func addItem(_ item: String)
     {
         currentList.insert(item, at: 0)
         shouldILoadList = true
+        tableView.reloadData()
+        saveCurrentList()
     }
     
     
@@ -46,14 +48,14 @@ class ListTVC: UITableViewController
         let ac              = UIAlertController(title: "Enter Item", message: nil, preferredStyle: .alert)
         ac.addTextField()
         
-        let submitAction    = UIAlertAction(title: "Submit", style: .default) { [weak self, weak ac] _ in
+        let addItemAction    = UIAlertAction(title: "Add", style: .default) { [weak self, weak ac] _ in
             guard let self      = self else { return }
             guard let item      = ac?.textFields?[0].text else { return }
             guard !item.isEmpty else { print("nothing here"); return }
-            self.submit(item)
+            self.addItem(item)
         }
         
-        ac.addAction(submitAction)
+        ac.addAction(addItemAction)
         present(ac, animated: true)
     }
     
