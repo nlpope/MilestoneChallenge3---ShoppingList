@@ -26,7 +26,6 @@ class ListTVC: UITableViewController
     // MARK: CONFIGURATION
     func configureNavigation()
     {
-        print("configuring navigation")
         navigationItem.rightBarButtonItem   = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(promptForItem))
         navigationItem.leftBarButtonItem    = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(clearList))
     }
